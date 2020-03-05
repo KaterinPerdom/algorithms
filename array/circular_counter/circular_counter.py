@@ -1,3 +1,17 @@
+"""
+Given a list, returns an item from the list 
+each skip, until empty.
+
+Example
+a=[1,2,3,4]
+
+circ_counter(a, 2)
+2
+4
+3
+1
+
+"""
 a = ['1', '2', '3', '4', '5', '6', '7', '8', '9']
 
 

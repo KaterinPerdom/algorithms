@@ -1,3 +1,17 @@
+"""
+Given a list,
+makes it rotate in the index k.
+
+Example:
+b=[1,2,3,4]
+
+rotate(b,2)
+Return:
+[3,4,1,2]
+"""
+
+
+
 def rotate(arr, k):
     n = len(arr)
     k = k % n
